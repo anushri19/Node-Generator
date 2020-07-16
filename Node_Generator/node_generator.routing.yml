@@ -1,0 +1,17 @@
+Node_Generator.NodeGeneratorForm:
+ path: '/admin/generate-nodes'
+ defaults:
+   _title: 'Generate Nodes'
+   _form: '\Drupal\Node_Generator\Form\NodeGeneratorForm'
+ requirements:
+   _permission: 'access content'
+
+
+
+Node_Generator.NodeBodyGeneratorForm:
+ path: '/admin/generate-nodes-with-body'
+ defaults:
+   _title: 'Generate Nodes with Body and title'
+   _form: '\Drupal\Node_Generator\Form\NodeBodyGeneratorForm'
+ requirements:
+   _permission: 'access content'
